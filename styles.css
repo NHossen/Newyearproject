@@ -5,56 +5,12 @@
 
 /* Bannner Section */
 .banner{
-    background-image: url(images/banner/banner3.png);
-    background-repeat: no-repeat;
-    height:808px ;
-    width: 100%;
-}
-.banner-text{
-    display: flex;
-    flex-direction: column;
-    align-items: end;
-    color: white;
-    width: 100%;
-    padding-top: 15%;
-}
-.banner-head{
-font-size: 60px ;
-font-weight: 500;
-width: 525px;
-}
-.banner-description{
-    width: 525px;
-    margin-top: 15px;
-    margin-bottom: 15px;
-}
-.primary-btn{
-    color:#005FAC ;
-    border:2px solid #005FAC ;
-    font-weight: 600;
-    padding: 12px;
-    margin-right: 26.7%;
-}
-/* Profile Section */
+background-image: url(images/banner/banner3.png);
+background-repeat: no-repeat;
+  position: relative;
+  width: auto;
+  height: 510px;
+  /* margin-left: auto;
+  margin-right: auto; */
 
-.profile-container{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    width: 100%;
-    border: 2px solid;
-    margin: 100px;
-}
-
-.profile-photo img{
-    width: 100%;
-}
-.profile-text{
-    width: 20%;
-    margin-right: 15%;
-}
-.profile-text h2{
-    font-size: 40px;
-    font-weight: bold;
-
-}
+} 
